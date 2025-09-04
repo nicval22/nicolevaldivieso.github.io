@@ -1,16 +1,15 @@
-# Nicole Valdivieso Pardo - Portafolio Personal
-Portafolio profesional en ciberseguridad y redes. Incluye proyectos, análisis técnicos, simulaciones de ataques en entornos controlados y redacción de informes de seguridad. Refleja mi experiencia en protección de sistemas, monitoreo y medidas defensivas en entornos IT y OT.
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio de Nicole Valdivieso</title>
   <link rel="stylesheet" href="assets/estilo.css">
 </head>
 <body>
   <header>
     <h1>Portafolio Virtual - Nicole Valdivieso</h1>
+    Portafolio profesional en ciberseguridad y redes. Incluye proyectos, análisis técnicos, simulaciones de ataques en entornos controlados y redacción de informes de seguridad. Refleja mi experiencia en protección de sistemas, monitoreo y medidas defensivas en entornos IT y OT.
     <nav>
       <ul>
         <li><a href="#habilidades">Ejemplo de Habilidades (Punto 3)</a></li>
@@ -36,7 +35,6 @@ Portafolio profesional en ciberseguridad y redes. Incluye proyectos, análisis t
         <a href="docs/Informe_Seguridad_Redes.pdf" target="_blank">Informe Técnico de Seguridad en Redes</a>
       </p>
     </section>
-
     <!-- Punto 4 -->
     <section id="perfil">
       <h2>Perfil Profesional (Punto 4)</h2>
