@@ -1,7 +1,75 @@
-body { font-family: Arial, sans-serif; margin: 0; background: #f4f6f9; color: #333; }
-header { background: #222; color: white; padding: 20px; text-align: center; }
-nav ul { list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; }
-nav ul li a { color: #00bfff; text-decoration: none; }
-main { padding: 20px; max-width: 900px; margin: auto; }
-section { margin-bottom: 40px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,.1); }
-footer { background: #222; color: white; text-align: center; padding: 15px; margin-top: 20px; }
+/* Imagen de perfil */
+.perfil-img {
+  width: 180px;       /* tamaño fijo pero adaptable */
+  height: 180px;
+  object-fit: cover;  /* recorta sin deformar */
+  border-radius: 50%; /* hace la foto redonda */
+  margin: 20px auto;
+  display: block;     /* centra la imagen */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* sombra elegante */
+}
+
+/* Iconos dentro de las tarjetas */
+.card img {
+  width: 60px;   /* tamaño estándar de ícono */
+  height: 60px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Tarjetas de habilidades */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Botones de llamada a la acción */
+.btn {
+  background: #00bfff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #007acc;
+}
+/* Ajustes para móviles */
+@media (max-width: 768px) {
+  .perfil-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .card {
+    width: 100%; /* cada tarjeta ocupa toda la fila en pantallas pequeñas */
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
