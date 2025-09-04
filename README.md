@@ -39,7 +39,7 @@
     <section id="perfil">
       <h2>Perfil Profesional (Punto 4)</h2>
       <p><strong>¿Quién soy?</strong> Soy Nicole Valdivieso, Ingeniera de Sistemas con más de 6 años de experiencia en TI, especializada en ciberseguridad y redes.</p>
-      <p><strong>De dónde soy:</strong> Chillán, Chile.</p>
+      <p><strong>De dónde soy:</strong> Chiclayo, Perú.</p>
       <p><strong>Formación:</strong> Ingeniería de Sistemas y diplomados en Ciberseguridad, Redes y Gestión de Proyectos.</p>
       <p><strong>Experiencia:</strong> Proyectos en ciberseguridad OT, redes industriales, auditoría de seguridad, cableado estructurado y data centers.</p>
       <p><strong>Por qué contactarme:</strong> Combino experiencia práctica con sólida formación técnica, ofreciendo soluciones efectivas adaptadas a cada cliente.</p>
